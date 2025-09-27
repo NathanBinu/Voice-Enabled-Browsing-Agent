@@ -1,4 +1,4 @@
-# Voice-Enabled Browser Agent (MVP)
+# Voice-Enabled Browser Agent (In-Progress)
 
 - STT + TTS: Deepgram (Aura voices for TTS)
 - Intent Parsing: OpenRouter (`openai/gpt-oss-120b`)
