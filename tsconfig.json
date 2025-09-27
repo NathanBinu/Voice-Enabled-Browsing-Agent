@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",              // modern JS features
+    "module": "ES2022",              // align with "type":"module"
+    "moduleResolution": "Bundler",   // resolves ESM-friendly like Node + modern tooling
+    "outDir": "dist",                // compiled output
+    "rootDir": "src",                // your source lives here
+    "esModuleInterop": true,         // smoother CJS interop (some libs still CJS)
+    "strict": true,                  // good type safety
+    "skipLibCheck": true             // faster builds, avoids d.ts noise
+  },
+  "include": ["src"]}

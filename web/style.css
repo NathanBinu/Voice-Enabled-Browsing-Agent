@@ -1,0 +1,5 @@
+body { font-family: system-ui, sans-serif; max-width: 900px; margin: 40px auto; }
+.row { display: flex; gap: 12px; margin-bottom: 12px; }
+pre { background: #0b0b0b; color: #00d26a; padding: 12px; border-radius: 6px; overflow: auto; }
+button { padding: 10px 14px; font-size: 16px; cursor: pointer; }
+audio { margin-top: 8px; width: 100%; }

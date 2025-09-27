@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Voice-Enabled Browser Agent (MVP)</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <h1>Voice-Enabled Browser Agent (MVP)</h1>
+
+    <div class="row">
+        <button id="recordBtn">🎤 Start / Stop</button>
+        <button id="runBtn" disabled>Run Agent</button>
+    </div>
+
+    <p><strong>Transcript:</strong> <span id="transcript">–</span></p>
+    <audio id="tts" controls></audio>
+
+    <h3>Command JSON</h3>
+    <pre id="cmd"></pre>
+
+    <h3>Result</h3>
+    <pre id="result"></pre>
+
+    <script src="./app.js"></script>
+</body>
+</html>
